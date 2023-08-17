@@ -19,7 +19,7 @@
 from flask import Flask, render_template, request
 import openai
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 app = Flask(__name__)
 
