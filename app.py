@@ -1,10 +1,16 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
 
 # pip install flask
+
+
+# In[2]:
+
+
+# pip install openai
 
 
 # In[ ]:
@@ -13,7 +19,7 @@
 from flask import Flask, render_template, request
 import openai
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 app = Flask(__name__)
 
@@ -36,12 +42,6 @@ def index():
     
 if __name__ == "__main__":
     app.run()
-
-
-# In[ ]:
-
-
-
 
 
 # In[ ]:
